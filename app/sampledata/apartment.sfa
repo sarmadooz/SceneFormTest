@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Apartment_mat1',
+      parameters: [
+        {
+          baseColor: 'Apartment_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/apartment.obj',
+    name: 'apartment',
+    recenter: 'root',
+    scale: 0.17260900000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Apartment_BaseColor.png',
+      name: 'Apartment_BaseColor',
+      pipeline_name: 'Apartment_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}
